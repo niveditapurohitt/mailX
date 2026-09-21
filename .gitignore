@@ -1,0 +1,50 @@
+# Python
+gmail_env/
+venv/
+.env
+__pycache__/
+*.pyc
+__pycache__/
+*.py[cod]
+*.egg-info/
+dist/
+build/
+*.egg
+.venv/
+env/
+venv/
+venv310/
+# Node
+node_modules/
+# frontend/dist/
+frontend/.vite/
+
+# Env
+.env
+.env.local
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Database
+*.db
+*.sqlite
+database_backups/
+
+*.docx
+
+# Railway
+nixpacks.toml  # optional — keep if you want to commit it
+
+# Logs
+*.log
+
+*.db-shm
+*.db-wal
