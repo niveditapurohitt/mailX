@@ -149,7 +149,7 @@ from app.vector_search import (
 app = FastAPI(title="AI Email Automation Agent")
 
 # CORS middleware
-_default_cors_origins = "http://localhost:5173,https://emailsystem2.vercel.app,https://mailx-mu.vercel.app"
+_default_cors_origins = "http://localhost:5173,https://mailx-mu.vercel.app"
 app.add_middleware(
     CORSMiddleware,
     allow_origins=os.getenv("CORS_ORIGINS", _default_cors_origins).split(","),
