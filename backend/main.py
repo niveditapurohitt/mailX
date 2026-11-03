@@ -174,7 +174,7 @@ _DB_CONN = None
 # Google OAuth redirect URI (must match Google Cloud Console + frontend env)
 GOOGLE_REDIRECT_URI = os.getenv(
     "GOOGLE_REDIRECT_URI",
-    "https://mailx-production.up.railway.app/google/callback"
+    "https://https://mailx-kp3c.onrender.com/google/callback"
 )
 FRONTEND_URL = os.getenv("FRONTEND_URL", "https://mail-x-flax.vercel.app")
 
